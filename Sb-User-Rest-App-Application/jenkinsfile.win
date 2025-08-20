@@ -1,0 +1,51 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven-3.8.4'   // Configure Maven under "Manage Jenkins > Global Tool Configuration"
+        jdk 'Java-21'     // Make sure JDK 17 is configured in Jenkins
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Shiva-shiv/Sb-User-Rest-App-Application.git'
+            }
+        }
+
+        stage('Build with Maven') {
+            steps {
+                bat 'mvn clean package -DskipTests'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                bat 'mvn test'
+            }
+        }
+
+        stage('Package Artifact') {
+            steps {
+                archiveArtifacts artifacts: 'target\\*.jar', fingerprint: true
+            }
+        }
+
+        stage('Docker Build') {
+            steps {
+                bat 'docker build -t sb-user-rest-app .'
+            }
+        }
+
+        stage('Docker Run') {
+            steps {
+                // Stop and remove old container if exists, then run new one
+                bat '''
+                docker stop sb-user-rest-app || echo "No container to stop"
+                docker rm sb-user-rest-app || echo "No container to remove"
+                docker run -d -p 8080:8080 --name sb-user-rest-app sb-user-rest-app
+                '''
+            }
+        }
+    }
+}
