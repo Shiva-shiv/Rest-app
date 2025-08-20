@@ -1,47 +1,54 @@
 pipeline {
     agent any
-
-    tools {
-        maven 'maven-3.8.4'   // Configure Maven in Jenkins (Manage Jenkins > Global Tool Configuration)
-        jdk 'jdk-21'     // Use correct JDK version (match your project)
+    
+       tools {
+        jdk 'jdk-21'
+        maven 'maven-3.8.4'
     }
-
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Shiva-shiv/Rest-app.git'
+                git url: 'https://github.com/Shiva-shiv/Rest-app.git', branch: 'main'
             }
         }
 
         stage('Build') {
             steps {
-                sh 'mvn clean install -DskipTests'
+                dir('Sb-User-Rest-App-Application') {
+                    sh './mvnw clean package -DskipTests'
+                }
             }
         }
 
         stage('Test') {
             steps {
-                sh 'mvn test'
+                dir('Sb-User-Rest-App-Application') {
+                    sh './mvnw test'
+                }
             }
         }
 
-        stage('Package') {
+        stage('Package Jar') {
             steps {
-                sh 'mvn package'
-                archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
+                dir('Sb-User-Rest-App-Application') {
+                    sh 'ls -lh target/'
+                }
             }
         }
 
-        stage('Deploy') {
+        stage('Docker Build') {
             steps {
-                // Example: copy JAR to server
-                sh '''
-                echo "Deploying application..."
-                cp target/*.jar /opt/deployment/
-                '''
-                // If using Docker:
-                // sh 'docker build -t sb-user-rest-app .'
-                // sh 'docker run -d -p 8080:8080 sb-user-rest-app'
+                dir('Sb-User-Rest-App-Application') {
+                    sh 'docker build -t rest-app:latest .'
+                }
+            }
+        }
+
+        stage('Run App') {
+            steps {
+                dir('Sb-User-Rest-App-Application') {
+                    sh 'docker run -d -p 8080:8080 rest-app:latest'
+                }
             }
         }
     }
