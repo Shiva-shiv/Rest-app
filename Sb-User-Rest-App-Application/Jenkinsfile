@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    
+
     tools {
         jdk 'jdk-21'
         maven 'maven-3.8.4'
@@ -13,9 +13,10 @@ pipeline {
             }
         }
 
-        stage('Build & Package') {
+        stage('Build') {
             steps {
                 dir('Sb-User-Rest-App-Application') {
+                    sh 'chmod +x mvnw'
                     sh './mvnw clean package -DskipTests'
                 }
             }
@@ -24,7 +25,7 @@ pipeline {
         stage('Verify Artifact') {
             steps {
                 dir('Sb-User-Rest-App-Application') {
-                    sh 'ls -lh target/'
+                    sh 'ls -lh target/*.jar'
                 }
             }
         }
@@ -39,9 +40,8 @@ pipeline {
 
         stage('Run App') {
             steps {
-                dir('Sb-User-Rest-App-Application') {
-                    sh 'docker run -d -p 8080:8080 --name rest-app-container rest-app:latest || true'
-                }
+                sh 'docker rm -f rest-app || true'
+                sh 'docker run -d -p 8080:8080 --name rest-app rest-app:latest'
             }
         }
     }
