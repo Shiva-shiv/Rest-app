@@ -1,0 +1,254 @@
+2025-08-06 09:43:58,635 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SbUserRestApplication using Java 21.0.7 with PID 5524 (C:\Users\admin\Downloads\Sb-User-RestApplication\target\classes started by admin in C:\Users\admin\Downloads\Sb-User-RestApplication)
+2025-08-06 09:43:58,641 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-06 09:43:59,010 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 9090 (http)
+2025-08-06 09:43:59,012 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9090"]
+2025-08-06 09:43:59,014 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-08-06 09:43:59,014 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 09:43:59,048 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-06 09:43:59,050 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 402 ms
+2025-08-06 09:43:59,221 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-08-06 09:43:59,231 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9090"]
+2025-08-06 09:43:59,241 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 9090 (http) with context path '/'
+2025-08-06 09:43:59,246 INFO o.s.b.StartupInfoLogger [restartedMain] Started SbUserRestApplication in 0.713 seconds (process running for 131.485)
+2025-08-06 09:43:59,249 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-08-06 09:44:07,073 INFO o.a.j.l.DirectJDKLog [http-nio-9090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 09:44:07,074 INFO o.s.w.s.FrameworkServlet [http-nio-9090-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-08-06 09:44:07,076 INFO o.s.w.s.FrameworkServlet [http-nio-9090-exec-1] Completed initialization in 1 ms
+2025-08-06 09:57:50,063 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-06 09:57:50,071 INFO o.s.b.w.e.t.GracefulShutdown [Thread-11] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 09:57:50,072 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-9090"]
+2025-08-06 09:57:50,080 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-08-06 09:57:50,081 INFO o.a.j.l.DirectJDKLog [Thread-11] Stopping ProtocolHandler ["http-nio-9090"]
+2025-08-06 09:57:50,249 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SbUserRestApplication using Java 21.0.7 with PID 5524 (C:\Users\admin\Downloads\Sb-User-RestApplication\target\classes started by admin in C:\Users\admin\Downloads\Sb-User-RestApplication)
+2025-08-06 09:57:50,251 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-06 09:57:50,596 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 9090 (http)
+2025-08-06 09:57:50,599 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9090"]
+2025-08-06 09:57:50,600 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-08-06 09:57:50,601 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 09:57:50,648 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-06 09:57:50,650 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 393 ms
+2025-08-06 09:57:50,743 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-08-06 09:57:50,751 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9090"]
+2025-08-06 09:57:50,756 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 9090 (http) with context path '/'
+2025-08-06 09:57:50,760 INFO o.s.b.StartupInfoLogger [restartedMain] Started SbUserRestApplication in 0.604 seconds (process running for 962.994)
+2025-08-06 09:57:50,761 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-08-06 10:00:04,236 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-06 10:00:04,242 INFO o.s.b.w.e.t.GracefulShutdown [Thread-15] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 10:00:04,244 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:00:04,254 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-08-06 10:00:04,255 INFO o.a.j.l.DirectJDKLog [Thread-15] Stopping ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:00:04,423 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SbUserRestApplication using Java 21.0.7 with PID 5524 (C:\Users\admin\Downloads\Sb-User-RestApplication\target\classes started by admin in C:\Users\admin\Downloads\Sb-User-RestApplication)
+2025-08-06 10:00:04,424 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-06 10:00:04,760 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 9090 (http)
+2025-08-06 10:00:04,762 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:00:04,763 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-08-06 10:00:04,764 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 10:00:04,802 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-06 10:00:04,804 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 373 ms
+2025-08-06 10:00:04,920 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-08-06 10:00:04,927 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:00:04,932 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 9090 (http) with context path '/'
+2025-08-06 10:00:04,941 INFO o.s.b.StartupInfoLogger [restartedMain] Started SbUserRestApplication in 0.606 seconds (process running for 1097.174)
+2025-08-06 10:00:04,943 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-08-06 10:00:36,507 INFO o.a.j.l.DirectJDKLog [http-nio-9090-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 10:00:36,507 INFO o.s.w.s.FrameworkServlet [http-nio-9090-exec-2] Initializing Servlet 'dispatcherServlet'
+2025-08-06 10:00:36,509 INFO o.s.w.s.FrameworkServlet [http-nio-9090-exec-2] Completed initialization in 1 ms
+2025-08-06 10:00:36,523 INFO c.w.c.ControllerClass [http-nio-9090-exec-2] User [ userId= 5firstName=Pradeep, lastName=kumar, birthdate=2021-05-21, address=Chen, mobile=78977891234, email=sai@gmail.com]
+2025-08-06 10:00:43,894 ERROR c.w.c.ControllerClass [http-nio-9090-exec-3] Invalid User id
+com.wipro.exception.UserException: Invalid User id
+	at com.wipro.service.userServiceImpl.getUserById(userServiceImpl.java:24)
+	at com.wipro.controller.ControllerClass.getUser(ControllerClass.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.Exception: Invalid User id
+	at com.wipro.DAO.userDAOImpl.getUserById(userDAOImpl.java:29)
+	at com.wipro.service.userServiceImpl.getUserById(userServiceImpl.java:20)
+	... 49 common frames omitted
+2025-08-06 10:00:49,732 INFO c.w.c.ControllerClass [http-nio-9090-exec-5] User [ userId= 1firstName=ram, lastName=kumar, birthdate=2025-12-12, address=HYD, mobile=9440787463, email=ram@gmail.com]
+2025-08-06 10:00:58,220 INFO c.w.c.ControllerClass [http-nio-9090-exec-4] Pradeep removed successfully !
+2025-08-06 10:06:45,816 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-08-06 10:06:45,819 INFO o.s.b.w.e.t.GracefulShutdown [Thread-19] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 10:06:45,820 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:06:45,834 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-08-06 10:06:45,835 INFO o.a.j.l.DirectJDKLog [Thread-19] Stopping ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:06:45,984 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SbUserRestApplication using Java 21.0.7 with PID 5524 (C:\Users\admin\Downloads\Sb-User-RestApplication\target\classes started by admin in C:\Users\admin\Downloads\Sb-User-RestApplication)
+2025-08-06 10:06:45,987 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-06 10:06:46,355 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 9090 (http)
+2025-08-06 10:06:46,357 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:06:46,358 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-08-06 10:06:46,358 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 10:06:46,393 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-06 10:06:46,393 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 401 ms
+2025-08-06 10:06:46,411 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'controllerClass': Unsatisfied dependency expressed through field 'service': Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'dao': Error creating bean with name 'userDAOImpl' defined in file [C:\Users\admin\Downloads\Sb-User-RestApplication\target\classes\com\wipro\DAO\userDAOImpl.class]: Failed to instantiate [com.wipro.DAO.userDAOImpl]: Constructor threw exception
+2025-08-06 10:06:46,419 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2025-08-06 10:06:46,435 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-06 10:06:46,471 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'controllerClass': Unsatisfied dependency expressed through field 'service': Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'dao': Error creating bean with name 'userDAOImpl' defined in file [C:\Users\admin\Downloads\Sb-User-RestApplication\target\classes\com\wipro\DAO\userDAOImpl.class]: Failed to instantiate [com.wipro.DAO.userDAOImpl]: Constructor threw exception
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.wipro.SbUserRestApplication.main(SbUserRestApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'dao': Error creating bean with name 'userDAOImpl' defined in file [C:\Users\admin\Downloads\Sb-User-RestApplication\target\classes\com\wipro\DAO\userDAOImpl.class]: Failed to instantiate [com.wipro.DAO.userDAOImpl]: Constructor threw exception
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1745)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAOImpl' defined in file [C:\Users\admin\Downloads\Sb-User-RestApplication\target\classes\com\wipro\DAO\userDAOImpl.class]: Failed to instantiate [com.wipro.DAO.userDAOImpl]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1242)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1745)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 39 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.wipro.DAO.userDAOImpl]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:123)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1351)
+	... 50 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The constructor User(int, String, String, LocalDate, String, long, String) is undefined
+	The constructor User(int, String, String, LocalDate, String, long, String) is undefined
+	The constructor User(int, String, String, LocalDate, String, long, String) is undefined
+	The constructor User(int, String, String, LocalDate, String, long, String) is undefined
+	The method getUserid() is undefined for the type User
+	The method getFirstName() is undefined for the type User
+	The method getLastName() is undefined for the type User
+	The method getAddress() is undefined for the type User
+	The method getBirthdate() is undefined for the type User
+	The method getEmail() is undefined for the type User
+	The method getMobile() is undefined for the type User
+
+	at com.wipro.DAO.userDAOImpl.<init>(userDAOImpl.java:14)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197)
+	... 52 common frames omitted
+2025-08-06 10:11:33,563 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SbUserRestApplication using Java 21.0.7 with PID 8116 (C:\Users\admin\Downloads\Sb-User-RestApplication\target\classes started by admin in C:\Users\admin\Downloads\Sb-User-RestApplication)
+2025-08-06 10:11:33,579 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-06 10:11:33,754 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-06 10:11:33,756 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-06 10:11:35,821 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 9090 (http)
+2025-08-06 10:11:35,846 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:11:35,851 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-08-06 10:11:35,852 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 10:11:35,941 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-06 10:11:35,943 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2183 ms
+2025-08-06 10:11:36,754 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-08-06 10:11:36,787 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:11:36,843 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 9090 (http) with context path '/'
+2025-08-06 10:11:36,886 INFO o.s.b.StartupInfoLogger [restartedMain] Started SbUserRestApplication in 4.129 seconds (process running for 5.591)
+2025-08-06 10:11:40,934 INFO o.a.j.l.DirectJDKLog [http-nio-9090-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 10:11:40,935 INFO o.s.w.s.FrameworkServlet [http-nio-9090-exec-3] Initializing Servlet 'dispatcherServlet'
+2025-08-06 10:11:40,939 INFO o.s.w.s.FrameworkServlet [http-nio-9090-exec-3] Completed initialization in 3 ms
+2025-08-06 10:11:41,151 INFO c.w.c.ControllerClass [http-nio-9090-exec-3] User(userid=5, firstName=Pradeep, lastName=kumar, birthdate=2021-05-21, address=Chen, mobile=78977891234, email=sai@gmail.com)
+2025-08-06 10:11:55,907 INFO c.w.c.ControllerClass [http-nio-9090-exec-2] User(userid=1, firstName=ram, lastName=kumar, birthdate=2025-12-12, address=HYD, mobile=9440787463, email=ram@gmail.com)
+2025-08-06 10:12:09,999 INFO c.w.c.ControllerClass [http-nio-9090-exec-4] User(userid=1, firstName=ram, lastName=kumar, birthdate=2025-12-12, address=HYD, mobile=9440787463, email=ram@gmail.com)
+2025-08-06 10:12:15,993 INFO c.w.c.ControllerClass [http-nio-9090-exec-5] [User(userid=1, firstName=ram, lastName=kumar, birthdate=2025-12-12, address=HYD, mobile=9440787463, email=ram@gmail.com), User(userid=2, firstName=sam, lastName=kumar, birthdate=2024-10-27, address=Chen, mobile=9300787468, email=sam@gmail.com), User(userid=3, firstName=Babblu, lastName=samule, birthdate=2023-05-10, address=Bng, mobile=9540787448, email=bab@gmail.com), User(userid=4, firstName=bunty, lastName=Rajarla, birthdate=2022-07-09, address=kol, mobile=9940787433, email=bun@gmail.com), User(userid=5, firstName=Pradeep, lastName=kumar, birthdate=2021-05-21, address=Chen, mobile=78977891234, email=sai@gmail.com)]
+2025-08-06 10:20:43,486 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-06 10:20:43,494 INFO o.s.b.w.e.t.GracefulShutdown [Thread-5] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 10:20:43,496 INFO o.a.j.l.DirectJDKLog [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:20:43,508 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-08-06 10:20:43,509 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:20:43,681 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SbUserRestApplication using Java 21.0.7 with PID 8116 (C:\Users\admin\Downloads\Sb-User-RestApplication\target\classes started by admin in C:\Users\admin\Downloads\Sb-User-RestApplication)
+2025-08-06 10:20:43,682 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-08-06 10:20:44,101 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 9090 (http)
+2025-08-06 10:20:44,103 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:20:44,104 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-08-06 10:20:44,105 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 10:20:44,142 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-08-06 10:20:44,142 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 453 ms
+2025-08-06 10:20:44,290 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-08-06 10:20:44,307 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-9090"]
+2025-08-06 10:20:44,315 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 9090 (http) with context path '/'
+2025-08-06 10:20:44,322 INFO o.s.b.StartupInfoLogger [restartedMain] Started SbUserRestApplication in 0.743 seconds (process running for 553.024)
+2025-08-06 10:20:44,328 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
